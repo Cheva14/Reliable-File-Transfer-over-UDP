@@ -11,7 +11,9 @@ When the server starts, it waits for a client connection. The client also starts
 Run the program
 
 To be able to run the program, run $ make in a terminal window to compile the files.
+
 Start the server by running $ ./server <port> and the server will start waiting for the client to send a file request.
+
 In a new terminal window start the client by running $ ./client <filename> <ip> <port> and the program will start the file transfer.
 
 

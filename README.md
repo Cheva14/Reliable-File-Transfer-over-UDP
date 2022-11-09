@@ -1,4 +1,4 @@
-# Reliable-File-Transfer-over-UDP
+# Reliable File Transfer over UDP
 The program opens a connection between a client and a server. The client sends a filename to the server, the server reads the file and sends it back to the client using sliding window protocol to ensure reliability in any packet loss, reordering and delay, and then the client writes the data into a new file.
 
 Documentation
